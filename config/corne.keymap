@@ -41,14 +41,14 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB  | BTCLR | BT1 | BT2 |     |     |   |     |     |     |     |     |  DEL |
-// | SHFT  |   !   |  @  |  #  |  $  |  %  |   |     | UP  |     |     |     |      |   
-// | LCTRL |   ^   |  &  |  *  |  (  |  )  |   | LFT | DWN | RGT |     |     |      |
+// |  TAB  | BTCLR | BT1 | BT2 |     |     |   |     |     |     |     |     |    DEL   |
+// | SHFT  |   !   |  @  |  #  |  $  |  %  |   |     | UP  |     |     |     | C_VOL_UP |   
+// | LCTRL |   ^   |  &  |  *  |  (  |  )  |   | LFT | DWN | RGT |     |     | C_VOL_DN |
 //                       | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB    &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1    &trans    &trans      &trans    &trans    &trans    &trans   &trans   &kp DEL
-   &kp LSHFT  &kp EXCL    &kp AT       &kp HASH        &kp DLLR  &kp PRCNT   &trans    &kp UP    &trans    &trans   &trans   &trans
-   &kp LCTRL  &kp CARET   &kp AMPS     &kp KP_MULTIPLY &kp LPAR  &kp RPAR    &kp LEFT  &kp DOWN  &kp RIGHT &trans   &trans   &trans
+   &kp LSHFT  &kp EXCL    &kp AT       &kp HASH        &kp DLLR  &kp PRCNT   &trans    &kp UP    &trans    &trans   &trans   &kp C_VOL_UP
+   &kp LCTRL  &kp CARET   &kp AMPS     &kp KP_MULTIPLY &kp LPAR  &kp RPAR    &kp LEFT  &kp DOWN  &kp RIGHT &trans   &trans   &kp C_VOL_DN
                                         &kp LGUI       &trans    &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
