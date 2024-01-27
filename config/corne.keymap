@@ -42,8 +42,8 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB  | BTCLR | BT1 | BT2 |     |     |   |     |     |     |     |     |    DEL   |
-// | SHFT  |   !   |  @  |  #  |  $  |  %  |   |     | UP  |     |     |     | C_VOL_UP |   
-// | LCTRL |   ^   |  &  |  *  |  (  |  )  |   | LFT | DWN | RGT |     |     | C_VOL_DN |
+// | SHFT  |   !   |  @  |  #  |  $  |  %  |   |     | UP  |     |     |     | K_VOL_UP |   
+// | LCTRL |   ^   |  &  |  *  |  (  |  )  |   | LFT | DWN | RGT |     |     | K_VOL_DN |
 //                       | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB    &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1    &trans    &trans      &trans    &trans    &trans    &trans   &trans   &kp DEL
